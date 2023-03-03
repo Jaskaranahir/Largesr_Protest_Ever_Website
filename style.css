@@ -1,0 +1,97 @@
+
+
+.entry{
+	background-image: url('wheat.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+nav{
+	width: 100%; height: 15%;
+	background: black;
+	color: white; display: flex;
+	justify-content: space-between;
+	align-items: center; text-transform: uppercase;
+
+}
+
+nav .logo{
+	width: 25%; text-align: center;
+	font-family: Arial;
+	animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: seagreen;}
+}
+
+
+nav .menu{
+	width: 45%;
+	display: flex; justify-content: space-around;
+}
+
+nav .menu a{
+	width: 25%;
+	text-decoration: none; color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav .menu a:hover{
+	color: red;
+}
+
+main{
+	width: 100%;
+	height: 85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+
+section{
+
+}
+
+section h1{
+	font-size: 35px; font_weight: 200; letter-spacing: 3px;
+	color: red;
+	text-shadow: 1px 1px 2px black;
+}
+section h4{
+	font-size: 35px; font_weight: 200; letter-spacing: 3px;
+	color: red;
+	text-shadow: 1px 1px 2px black;
+
+}
+
+section p{
+	font-size: 25px;
+	color: #4842f5;
+	word-spacing: 1px;
+	margin-bottom: 25px;
+	text-shadow: 1px 2px 1px black;
+}
+
+@media all and (min width: 600px){
+	body{
+		background-color: lightgreen; 
+
+	}
+    nav{
+    	flex-direction: row;
+	    flex-wrap: wrap;
+    }
+
+}
+	
+ 	
+
+
